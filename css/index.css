@@ -50,3 +50,21 @@ html{
 .body{
     background-color: rgb(147, 37, 161);
 }
+
+@media screen and (min-width: 660px) and (max-width: 989px)
+.body{background: yellow;}
+.logo{width: 100%;text-align: center;}
+
+.banner-top{display: none;}
+
+.primero{width: 100%;}
+
+.primero figure{height: 300px;overflow: hidden;}
+
+.segundo{width: 50%;}
+
+.tercero{width: 50%;}
+
+@media screen and (min-width: 990px) and (max-width: 1900px)
+
+.body{background: rgb(42, 170, 221);}}
